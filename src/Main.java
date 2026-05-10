@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Random;
 
 public class Main {
     // My first actual Java code, hooray!
@@ -67,9 +68,6 @@ public class Main {
 
         System.out.println("Hi " + userName + "!, it's good to see you :)");
 
-        // Closing scanner is considered a good practice,
-        // because not doing it can cause unexpected behavior
-        scanner.close();
 
 
 
@@ -89,6 +87,36 @@ public class Main {
             System.out.println("The statement is false");
         }
 
+        // Closing scanner is considered a good practice,
+        // because not doing it can cause unexpected behavior
         scanner.close();
+
+
+
+
+
+        // Random numbers
+        // We can generate random numbers
+
+        System.out.print("\n\n\n");
+        System.out.println("RANDOM NUMBERS");
+
+        Random random = new Random();
+
+        boolean isHeads;
+        int randomNumber;
+
+        // Generating a random number
+        randomNumber = random.nextInt();
+        System.out.println("Random number is " + randomNumber);
+
+        // Generating a random boolean
+        isHeads = random.nextBoolean();
+        if(isHeads){
+            System.out.println("HEADS");
+        } else {
+            System.out.println("TAILS");
+        }
+
     }
 }
