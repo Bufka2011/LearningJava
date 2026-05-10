@@ -39,7 +39,7 @@ public class Main {
 
         // \n is a space character
         System.out.print("\n\n\n");
-        System.out.println("VARIABLES:");
+        System.out.println("VARIABLES");
         System.out.println("The integer is " + Integer);
         System.out.println("The double is " + Double);
         System.out.println("The character is " + "\"" + Character + "\"");
@@ -56,7 +56,8 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("\n\n\n");
-        System.out.println("USER INPUT: ");
+        System.out.println("USER INPUT");
+
         System.out.println("What's your name?");
 
         // We're requesting user input and writing it into the variable
@@ -69,5 +70,21 @@ public class Main {
         // Closing scanner is considered a good practice,
         // because not doing it can cause unexpected behavior
         scanner.close();
+
+
+
+
+        // If statements
+        // Performs a block of code if its condition is true
+        boolean ifStatement = true;
+
+        System.out.print("\n\n\n");
+        System.out.println("IF STATEMENT");
+
+        if(ifStatement){
+            System.out.println("The statement is true");
+        } else {   // <--- if the condition is not true, do something ELSE
+            System.out.println("The statement is false");
+        }
     }
 }
