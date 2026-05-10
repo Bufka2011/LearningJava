@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     // My first actual Java code, hooray!
     // btw my first java comment
@@ -11,7 +13,10 @@ public class Main {
         // We use + to append something inside print method
         // For example:
         // System.out.println(2 + 2);
-        System.out.println("I am Bufka2011 and" + "I am learning Java!");
+        System.out.println("I am Bufka2011 and " + "I am learning Java!");
+        // My first bug was here :D
+
+
 
 
 
@@ -32,12 +37,37 @@ public class Main {
         // object
         // array
 
-        System.out.println("");
+        // \n is a space character
+        System.out.print("\n\n\n");
         System.out.println("VARIABLES:");
         System.out.println("The integer is " + Integer);
         System.out.println("The double is " + Double);
         System.out.println("The character is " + "\"" + Character + "\"");
         System.out.println("The TrueOrFalse is " + TrueOrFalse);
         System.out.println("The string is " + "\"" + String + "\"");
+
+
+
+
+
+        // User input
+        // We're going to accept user input using Scanner
+        // One more magic spell
+        Scanner scanner = new Scanner(System.in);
+
+        System.out.print("\n\n\n");
+        System.out.println("USER INPUT: ");
+        System.out.println("What's your name?");
+
+        // We're requesting user input and writing it into the variable
+        String userName = scanner.nextLine();
+        //                            ^ here after .next we should specify what kind of
+        //                              data we want to accept, for example Int or Double
+
+        System.out.println("Hi " + userName + "!, it's good to see you :)");
+
+        // Closing scanner is considered a good practice,
+        // because not doing it can cause unexpected behavior
+        scanner.close();
     }
 }
