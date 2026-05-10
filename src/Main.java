@@ -37,7 +37,7 @@ public class Main {
         // object
         // array
 
-        // \n is a space character
+        // \n is a newline character
         System.out.print("\n\n\n");
         System.out.println("VARIABLES");
         System.out.println("The integer is " + Integer);
@@ -76,15 +76,19 @@ public class Main {
 
         // If statements
         // Performs a block of code if its condition is true
-        boolean ifStatement = true;
 
         System.out.print("\n\n\n");
         System.out.println("IF STATEMENT");
+
+        System.out.println("Enter true or false:");
+        boolean ifStatement = scanner.nextBoolean();
 
         if(ifStatement){
             System.out.println("The statement is true");
         } else {   // <--- if the condition is not true, do something ELSE
             System.out.println("The statement is false");
         }
+
+        scanner.close();
     }
 }
