@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args){
         // My first program!
         // Hello Java world!
-        System.out.print("Hello World!");
+        System.out.println("Hello World!");
+        System.out.println("I am Bufka2011 and I am learning Java!");
     }
 }
