@@ -4,5 +4,8 @@ public class Main {
 
     // A magic spell that does no idea what
     public static void main(String[] args){
+        // My first program!
+        // Hello Java world!
+        System.out.print("Hello World!");
     }
 }
