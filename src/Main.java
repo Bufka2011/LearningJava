@@ -131,10 +131,25 @@ public class Main {
         // Pi number
         System.out.println("The Pi number is " + Math.PI);
 
-        // E number
+        // E number (idk what it is)
         System.out.println("The E number is " + Math.E);
 
         // Powers
         System.out.println("2 in power of 6 is " + Math.pow(2, 6));
+
+        // Absolute value
+        System.out.println("The absolute number of -5 is " + Math.abs(-5));
+
+        // Square root
+        System.out.println("The sqare root of 16 is " + Math.sqrt(16));
+
+        // Round, ceil and floor
+        System.out.println("The rounded number of 4.9 is " + Math.round(4.9));
+        System.out.println("When rounding to the ceiling it is " + Math.ceil(4.9));
+        System.out.println("When rounding to the floor it is " + Math.floor(4.9));
+
+        // Max and min
+        System.out.println("The maximum number between 1 and 10 is " + Math.max(1, 10));
+        System.out.println("The minimum number between 1 and 10 is " + Math.min(1, 10));
     }
 }
