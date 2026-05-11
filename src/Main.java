@@ -155,6 +155,8 @@ public class Main {
 
 
 
+
+
         // printf()
         // A method used to format output
         // %[flags][width][.precision][specifier-character]
@@ -206,5 +208,36 @@ public class Main {
         System.out.printf("%d\n", id2);
         System.out.printf("%d\n", id3);
         System.out.printf("%d\n", id4);
+
+
+
+
+        // String methods
+
+        System.out.print("\n\n\n");
+        System.out.println("STRING METHODS");
+
+        String name = "Bufka2011";
+
+        int lengthofName = name.length();
+        char letterAtIndex3 = name.charAt(3);
+        int index = name.indexOf('2');
+        int lastIndex = name.lastIndexOf('1');
+
+        System.out.println("My name is " + name);
+        System.out.println("The length of my name is " + lengthofName);
+        System.out.println("The character at index 3 is " + letterAtIndex3);
+        System.out.println("The index of '2' is " + index);
+        System.out.println("The last index of '1' is " + lastIndex);
+
+        // There is also a lot of other string methods, for example:
+        // toUpperCase() = converts the string to uppercase
+        // toLowerCase() = converts the string to lowercase
+        // trim() = removes leading and trailing whitespace
+        // replace() = replaces occurrences of a substring with another substring
+        // isEmpty() = checks if the string is empty
+        // contains() = checks if the string contains a specific sequence of characters
+        // equals() = compares two strings for equality
+        // ignoreCase() = compares two strings for equality, ignoring case considerations
     }
 }
