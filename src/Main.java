@@ -118,5 +118,23 @@ public class Main {
             System.out.println("TAILS");
         }
 
+
+
+
+
+        // Mathematics
+        // I HATE MATH!
+
+        System.out.print("\n\n\n");
+        System.out.println("MATHEMATICS");
+
+        // Pi number
+        System.out.println("The Pi number is " + Math.PI);
+
+        // E number
+        System.out.println("The E number is " + Math.E);
+
+        // Powers
+        System.out.println("2 in power of 6 is " + Math.pow(2, 6));
     }
 }
