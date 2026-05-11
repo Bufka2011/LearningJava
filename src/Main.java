@@ -176,5 +176,35 @@ public class Main {
         System.out.printf("Your grade is %f\n", grade);
         System.out.printf("Employed: %b\n", isEmployed);
         System.out.printf("%s is everywhere and the year is %d\n", word, year);
+
+        double price1 = 19.99;
+        double price2 = 5.49;
+        double price3 = -3.75;
+
+        //                          v here we specify that we want to round the number to 1 decimal place
+        System.out.printf("%.1f\n", price1);
+        System.out.printf("%.1f\n", price2);
+        System.out.printf("%.1f\n", price3);
+
+        // Flags that we could use in printf:
+        // + = include a plus sign for positive numbers
+        // , = include a comma as a thousands separator
+        // ( = enclose negative numbers in parentheses
+        // space = include a space before positive numbers
+
+        int id1 = 1;
+        int id2 = 12;
+        int id3 = 123;
+        int id4 = 1234;
+
+        // Padding
+        // 0 = zero padding
+        // number = right justified padding
+        // negative number = left justified padding
+
+        System.out.printf("%d\n", id1);
+        System.out.printf("%d\n", id2);
+        System.out.printf("%d\n", id3);
+        System.out.printf("%d\n", id4);
     }
 }
