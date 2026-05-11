@@ -239,5 +239,27 @@ public class Main {
         // contains() = checks if the string contains a specific sequence of characters
         // equals() = compares two strings for equality
         // ignoreCase() = compares two strings for equality, ignoring case considerations
+
+
+
+
+        // Substring method
+        // Used to extract a portion of a string
+
+        System.out.print("\n\n\n");
+        System.out.println("SUBSTRING METHOD");
+
+        String email = "john.pork@goofy.com";
+        String username = email.substring(0, email.indexOf('@'));
+        String domain = email.substring(email.indexOf('@') + 1);
+
+        System.out.println("Username: " + username);
+        System.out.println("Domain: " + domain);
+
+
+
+
+
+        // Next will be ternary operator
     }
 }
