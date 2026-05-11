@@ -87,10 +87,6 @@ public class Main {
             System.out.println("The statement is false");
         }
 
-        // Closing scanner is considered a good practice,
-        // because not doing it can cause unexpected behavior
-        scanner.close();
-
 
 
 
@@ -260,6 +256,24 @@ public class Main {
 
 
 
-        // Next will be ternary operator
+        // Ternary operator
+        // Used to extract a portion of a string
+
+        System.out.print("\n\n\n");
+        System.out.println("TERNARY OPERATOR");
+
+        System.out.println("What's your score: ");
+        double score = scanner.nextDouble();
+        
+        //                          if true v          v if false
+        String result = (score >= 60.00) ? "Passed" : "Failed";
+        
+        System.out.println(result);
+
+
+
+        // Closing scanner is considered a good practice,
+        // because not doing it can cause unexpected behavior
+        scanner.close();
     }
 }
