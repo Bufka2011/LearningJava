@@ -151,5 +151,30 @@ public class Main {
         // Max and min
         System.out.println("The maximum number between 1 and 10 is " + Math.max(1, 10));
         System.out.println("The minimum number between 1 and 10 is " + Math.min(1, 10));
+
+
+
+
+        // printf()
+        // A method used to format output
+        // %[flags][width][.precision][specifier-character]
+
+        System.out.print("\n\n\n");
+        System.out.println("PRINTF()");
+
+        String word = "Java";
+        int year = 2026;
+        char letter = 'A';
+        int height = 160;
+        double grade = 70.5;
+        boolean isEmployed = false;
+
+        System.out.printf("%s is everywhere!\n", word);
+        System.out.printf("The year is %d\n", year);
+        System.out.printf("The letter is %c\n", letter);
+        System.out.printf("You are %dcm tall\n", height);
+        System.out.printf("Your grade is %f\n", grade);
+        System.out.printf("Employed: %b\n", isEmployed);
+        System.out.printf("%s is everywhere and the year is %d\n", word, year);
     }
 }
