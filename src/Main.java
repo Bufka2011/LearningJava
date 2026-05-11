@@ -275,5 +275,44 @@ public class Main {
         // Closing scanner is considered a good practice,
         // because not doing it can cause unexpected behavior
         scanner.close();
+
+
+
+        
+
+        // Enhanced switch
+        // A replacement to many else if
+        // statements (Java 14 feature)
+        
+        String day = "Monday";
+
+        /*
+        if(day.equals("monday")){
+            System.out.println("It's a weekday");
+        } else if(day.equals("tuesday")){
+            System.out.println("It's a weekday");
+        } else if(day.equals("wednesday")){
+            System.out.println("It's a weekday");
+        } else if(day.equals("thursday")){
+            System.out.println("It's a weekday");
+        } else if(day.equals("friday")){
+            System.out.println("It's a weekday");
+        } else if(day.equals("saturday")){
+            System.out.println("It's weekend");
+        } else if(day.equals("sunday")){
+            System.out.println("It's weekend");
+        }
+        */
+
+        switch(day.toLowerCase()){
+            case "Monday" -> System.out.println("It's a weekday");
+            case "Tuesday" -> System.out.println("It's a weekday");
+            case "Wednesday" -> System.out.println("It's a weekday");
+            case "Thursday" -> System.out.println("It's a weekday");
+            case "Friday" -> System.out.println("It's a weekday");
+            case "Saturday" -> System.out.println("It's weekend");
+            case "Sunday" -> System.out.println("It's weekend");
+            default -> System.out.println(day + " is an invalid day");
+        }
     }
 }
