@@ -305,13 +305,8 @@ public class Main {
         */
 
         switch(day.toLowerCase()){
-            case "Monday" -> System.out.println("It's a weekday");
-            case "Tuesday" -> System.out.println("It's a weekday");
-            case "Wednesday" -> System.out.println("It's a weekday");
-            case "Thursday" -> System.out.println("It's a weekday");
-            case "Friday" -> System.out.println("It's a weekday");
-            case "Saturday" -> System.out.println("It's weekend");
-            case "Sunday" -> System.out.println("It's weekend");
+            case "Monday", "Tuesday", "Wednesday", "Thursday", "Friday" -> System.out.println("It's a weekday");
+            case "Saturday", "Sunday" -> System.out.println("It's weekend");
             default -> System.out.println(day + " is an invalid day");
         }
     }
